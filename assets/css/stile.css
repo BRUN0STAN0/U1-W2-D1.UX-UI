@@ -314,6 +314,11 @@ footer a {
 
     aside {
         display: flex;
+        justify-content: center;
+    }
+
+    aside div {
+        width: 400px;
     }
 
 }
