@@ -281,9 +281,7 @@ footer a {
 }
 
 @media screen and (min-width: 320px) {
-    * {
-        font-size: 2rem;
-    }
+
 
     table {
         margin-inline: auto;
@@ -303,13 +301,22 @@ footer a {
 }
 
 @media screen and (min-width: 768px) {
+    * {
+        font-size: 2rem;
+        transition: .1s;
+    }
+
     iframe {
         height: 400px;
     }
 
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    header a {
+        font-size: 2rem;
     }
 
     aside {
@@ -335,6 +342,12 @@ footer a {
         width: 1200px;
         margin-inline: auto;
     }
+
+    .toTop,
+    .social {
+        right: 12%;
+        transition: 4s;
+    }
 }
 
 
@@ -354,6 +367,7 @@ footer a {
         box-shadow: none;
     }
 
+    main>h2,
     header,
     aside,
     iframe,
