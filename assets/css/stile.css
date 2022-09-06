@@ -343,6 +343,11 @@ footer a {
         margin-inline: auto;
     }
 
+    iframe~section {
+        text-align: center;
+        transition: .5s;
+    }
+
     .toTop,
     .social {
         right: 12%;
